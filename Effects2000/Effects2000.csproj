@@ -7,12 +7,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\correct.wav" />
+    <None Remove="Assets\laugh.wav" />
+    <None Remove="Assets\no.wav" />
+    <None Remove="Assets\wrong.wav" />
     <None Remove="Assets\yes.mp3" />
     <None Remove="Assets\yes.wav" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Assets\yes.mp3">
+    <Content Include="Assets\correct.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\laugh.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\no.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\wrong.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\yes.wav">

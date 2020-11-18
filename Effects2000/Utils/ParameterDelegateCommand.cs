@@ -14,13 +14,20 @@ namespace Effects2000.Utils
             this.canExecute = canExecute;
             this.execute = execute;
         }
+        public ParameterDelegateCommand( Action<TParameter> execute)
+        {
+            if (execute == null) throw new ArgumentNullException("execute", "Cannot be null!");
+
+            this.canExecute = () => true;
+            this.execute = execute;
+        }
 
         public bool CanExecute(object parameter)
         {
             return canExecute();
         }
 
-        private void OnCanExecuteChanged()
+        public void OnCanExecuteChanged()
         {
             if (CanExecuteChanged != null)
             {

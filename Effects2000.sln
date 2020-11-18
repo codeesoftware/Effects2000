@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effects2000", "Effects2000\Effects2000.csproj", "{ACC3F816-0FF3-4C30-A148-A4B0BE78D092}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC44A5AA-D3BC-46B2-B6C2-20494C34928C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{6E8C1167-9DE7-40E3-9AD7-186C99A915B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{13DB8A6A-A09D-41AC-836A-2825B5281538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACC3F816-0FF3-4C30-A148-A4B0BE78D092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC3F816-0FF3-4C30-A148-A4B0BE78D092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC3F816-0FF3-4C30-A148-A4B0BE78D092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC3F816-0FF3-4C30-A148-A4B0BE78D092}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACC3F816-0FF3-4C30-A148-A4B0BE78D092} = {AC44A5AA-D3BC-46B2-B6C2-20494C34928C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06BAFE1B-7345-42A3-BA8C-4C5955E7F947}
+	EndGlobalSection
+EndGlobal
